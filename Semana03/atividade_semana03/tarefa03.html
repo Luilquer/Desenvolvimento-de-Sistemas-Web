@@ -1,0 +1,48 @@
+<!-- 
+    Criar uma página com um formulário contendo 3 campos de texto e um botão. 
+    Os campos devem conter os labels "Nota 1", "Nota 2" e "Nota 3", e o botão o texto Calcular média. 
+    Ao clicar no botão, dever ser calculada a média das notas (somente número inteiro) digitadas e 
+    informar se o aluno está reprovado (média < 3), em recuperação (média entre 3 e 6) ou aprovado 
+    (média > 6).
+ -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">    
+    <title>Atividade da semana 03</title>
+</head>
+<body>
+    
+    <div class="container">
+        <label for="name" class="form-label">Valor 1:</label>
+        <br>
+        <input type="text" class="form-control" id="valor1">
+    </div>
+    <div class="container">
+        <label for="name" class="form-label">Valor 2:</label>
+        <br>
+        <input type="text" class="form-control" id="valor2">
+    </div>
+</br>
+
+    <!-- <label for="n1">Nota 1:</label>
+    <input type="text" id="n1" name="n1">
+
+    <label for="n2"> <br> Nota 2:</label>
+    <input type="text" id="n2" name="n2">  
+
+    <label for="n3"> <br> Nota 3:</label>
+    <input type="text" id="n3" name="n3"> 
+    <br>
+    <div class="container"> -->
+        
+        <button id="somar" type="button" class="btn-outline-success" 
+            onclick="soma(document.getElementById('valor1').value, document.getElementById('valor2').value)">
+             Somar
+        </button>
+
+    </div>
+
+    <script src="js/tarefa03.js"></script>
+</body>
+</html>

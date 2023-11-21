@@ -1,0 +1,31 @@
+.estatico {
+    position: static;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    border: 2px solid black;
+}
+
+.relativo {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    border: 2px solid black;
+}
+
+.absoluto {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    border: 2px solid black;
+}
+
+.fixo {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    left: 100px;
+    border: 2px solid black;
+}

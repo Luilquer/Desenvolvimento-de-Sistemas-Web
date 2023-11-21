@@ -1,0 +1,21 @@
+h1 {
+    margin: 20px;
+    border: 2px solid black;
+}
+
+h2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+h3 {
+    padding: 20px;
+    border: 2px solid black;
+}
+
+h4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid black;
+}

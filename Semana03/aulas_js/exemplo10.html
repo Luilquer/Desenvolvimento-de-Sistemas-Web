@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+	<title>SVG 1</title>
+</head>
+<body>
+	<svg width="800" height="800">
+		<!-- Um retângulo: -->
+		<rect x="10" y="10" width="150" height="50" stroke="#000000" stroke-width="5" fill="#FF0000" />
+
+		<!-- Um polígono: -->
+		<polygon fill="red" stroke="blue" stroke-width="10" 
+		points="250,75  279,161 369,161 297,215
+				323,301 250,250 177,301 203,215
+				131,161 221,161" />
+
+		<!-- Um círculo -->
+		<circle cx="70" cy="240" r="60" stroke="#00FF00" stroke-width="5" fill="#FFFFFF" />
+
+		<!-- Uma linha -->
+		<line x1="0" y1="300" x2="200" y2="400" style="stroke:red;stroke-width:2"/>			
+		
+		<!-- Uma eclipse -->
+		<defs>
+			<radialGradient id="gradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+				<stop offset="0%" style="stop-color:rgb(200,200,200); stop-opacity:0"/>
+				<stop offset="100%" style="stop-color:rgb(0,0,255); stop-opacity:1"/>
+			</radialGradient>
+		</defs>
+		<ellipse cx="100" cy="450" rx="100" ry="50"  style="fill:url(#gradient)" />			
+	</svg>
+</body>
+</html>

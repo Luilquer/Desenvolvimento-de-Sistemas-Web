@@ -1,0 +1,105 @@
+body { 
+    font: normal 16px/20px "Helvetica Neue", Helvetica, sans-serif;
+    background: rgb(237, 237, 236);
+    margin: 0;
+    margin-top: 40px;
+    padding: 0;
+}
+  
+section, header, footer {
+    display: block;
+}
+  
+#wrapper {
+    width: 600px;
+    margin: 0 auto;
+    background: #fff repeat-x center bottom;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border-top: 1px solid #fff;
+    padding-bottom: 76px;
+}
+  
+h1 {
+    padding-top: 10px;
+}
+  
+h2 {
+    font-size: 100%;
+    font-style: italic;
+}
+  
+header,
+article > *,
+footer > * {
+    margin: 20px;
+}
+  
+footer > * {
+    margin: 20px;
+    color: #999;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #000;
+    margin: 10px;
+    width: 150px;
+    border: 3px dashed #999;
+    background: #eee;
+    padding: 10px;
+    display: block;
+}
+
+*[draggable=true] {
+    -khtml-user-drag: element;
+    cursor: move;
+}
+
+*:-khtml-drag {
+    background-color: rgba(238,238,238, 0.5);
+}
+
+li a:hover:after {
+    content: ' (Arraste-me)';
+}
+
+ul {
+    margin-left: 200px;
+    min-height: 300px;
+}
+
+li.over {
+    border-color: #333;
+    background: #ccc;
+}
+
+#bin {
+    background: url(../images/bin.jpg) top right no-repeat;
+    height: 250px;
+    width: 166px;
+    float: left;
+    border: 5px solid #000;
+    position: relative;
+    margin-top: 0;
+}
+
+#bin.over {
+    background: url(../images/bin.jpg) top left no-repeat;
+}
+
+#bin p {
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    width: 166px;
+    font-size: 32px;
+    color: #fff;
+    text-shadow: #000 2px 2px 2px;
+}

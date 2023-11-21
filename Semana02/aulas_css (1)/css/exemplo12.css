@@ -1,0 +1,11 @@
+input[value] {
+    color: #cc0000;
+}
+
+input[type="url"] {
+    background-color: burlywood;
+}
+
+input[value~="problema"] {
+    color: chocolate;
+}

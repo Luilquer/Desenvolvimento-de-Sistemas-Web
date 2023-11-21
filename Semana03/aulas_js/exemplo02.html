@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">    
+    <title>Exemplo JS arquivo</title>
+</head>
+<body>
+    
+    <label for="n1">Nota 1:</label>
+    <input type="text" id="n1" name="n1">
+
+    <label for="n2"> <br> Nota 2:</label>
+    <input type="text" id="n2" name="n2">  
+
+    <label for="n3"> <br> Nota 3:</label>
+    <input type="text" id="n3" name="n3"> 
+    <br>
+    <button id="somar" 
+        onclick="media(document.getElementById('n1').value, document.getElementById('n2').value, 
+        document.getElementById('n3').value)">
+         Calcular
+    </button>
+
+    <script src="js/exemplo02.js"></script>
+</body>
+</html>
